@@ -1,14 +1,15 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
-app.use(cors({ origin: "*" }));
+const cors = require("cors");
+
 const medicineRoutes = require("./routes/medicines");
 const dispenseLogRoutes = require("./routes/dispenseLogs");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 app.use("/api/medicines", medicineRoutes);
