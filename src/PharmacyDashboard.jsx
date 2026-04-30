@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://satisfied-embrace-production-9c4e.up.railway.app/api";
 
 const CATEGORIES = [
   "Analgesic", "Antibiotic", "Antiviral", "Antifungal",
