@@ -257,7 +257,7 @@ export default function PharmacyDashboard() {
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white text-sm font-bold">Rx</div>
             <div>
-              <p className="text-sm font-semibold text-gray-800 leading-none">PharmaDesk</p>
+              <p className="text-sm font-semibold text-gray-800 leading-none">Doctors's Pharmacy</p>
               <p className="text-xs text-gray-400 mt-0.5">Inventory System</p>
             </div>
           </div>
